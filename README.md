@@ -27,7 +27,7 @@ The workflow includes:
 
 The final risk map summarises the mean predicted ecological suitability for local dengue virus circulation across Europe, together with spatial uncertainty across BRT replicates.
 
-
+![Ecological suitability map](outputs/Fig5_cartographie_risque.png) 
 
 The PDF version is available in:
 
@@ -35,7 +35,7 @@ The PDF version is available in:
 
 ## Key outputs
 
-_To be completed after the selected outputs have been uploaded._
+
 
 ## How to run the R script
 
