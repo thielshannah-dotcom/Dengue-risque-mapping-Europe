@@ -35,6 +35,27 @@ The PDF version is available in:
 
 ## Key outputs
 
+Selected outputs include:
+
+- `outputs/Fig1_exploration_occurrences.pdf`: spatial distribution of occurrence points and coordinate distributions.
+- `outputs/Fig2_19variables.pdf`: maps of the 19 environmental predictors with occurrence points.
+- `outputs/Fig3_valeurs_env_aux_presences.pdf`: environmental values observed at presence locations.
+- `outputs/Fig4_correlogramme_spatial.pdf`: spatial correlogram used to guide spatial cross-validation.
+- `outputs/Fig5_cartographie_risque.pdf`: final ecological suitability / risk map.
+- `outputs/Fig5_cartographie_risque.png`: PNG version of the final risk map displayed in this README.
+- `outputs/Fig6_courbes_reponse.pdf`: response curves showing how predicted suitability varies with environmental predictors.
+- `outputs/Fig7_top6_maps_curves_RI.pdf`: maps, response curves and relative importance for the main predictors.
+- `outputs/Fig8_presence_pseudoabsence_distribution.pdf`: distribution of presences and pseudo-absences used for model training.
+- `outputs/BRT_model_predictions.rds`: saved BRT prediction rasters used to compute the final suitability map.
+
+Diagnostic outputs include:
+
+- `outputs/diagnostic/diagnostic_univariate_AUCs_clean_with_SD.pdf`: univariate discriminative power of predictors.
+- `outputs/diagnostic/diagnostic_paired_AUC_full_vs_reduced.pdf`: comparison between the full model and the model without winter relative humidity.
+- `outputs/diagnostic/diagnostic_delta_AUC_distribution.pdf`: distribution of AUC loss after removing winter relative humidity.
+- `outputs/diagnostic/diagnostic_RI_redistribution_all_variables.pdf`: redistribution of relative importance after removing winter relative humidity.
+- `outputs/diagnostic/diagnostic_spearman_correlation_heatmap.pdf`: Spearman correlation structure among environmental predictors.
+
 
 
 ## How to run the R script
